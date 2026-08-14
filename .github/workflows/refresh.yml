@@ -1,0 +1,42 @@
+name: refresh-data
+
+# 每个交易日（北京时间）定时刷新数据并发布到 GitHub Pages
+# UTC 01:30 = 北京 09:30（开盘后）；UTC 05:35 = 北京 13:35（午盘）
+on:
+  schedule:
+    - cron: "30 1 * * 1-5"
+    - cron: "35 5 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run refresh
+        run: python run.py refresh
+
+      - name: Publish to docs (GitHub Pages)
+        run: |
+          mkdir -p docs
+          cp web/index.html docs/index.html
+          cp data/snapshot.json docs/snapshot.json
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs data/snapshot.json
+          git diff --cached --quiet || (git commit -m "chore: refresh snapshot $(date -u +'%Y-%m-%d %H:%M UTC')" && git push)
