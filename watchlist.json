@@ -41,8 +41,8 @@
     { "code": "017641", "name": "摩根标普500指数A", "index": "sp500", "channel": "otc", "mgmt": 0.50, "custody": 0.15, "sales": 0.0, "sub_std": 1.20, "note": "" },
     { "code": "096001", "name": "大成标普500等权重指数A", "index": "sp500", "channel": "otc", "mgmt": 1.00, "custody": 0.20, "sales": 0.0, "sub_std": 1.50, "note": "等权重指数" },
     { "code": "007721", "name": "天弘标普500发起(FOF)A", "index": "sp500", "channel": "otc", "mgmt": 0.60, "custody": 0.20, "sales": 0.0, "sub_std": 1.00, "note": "FOF,存在双重收费" },
-    { "code": "006555", "name": "浦银全球智能科技(QDII)A", "index": "globaltech", "channel": "otc", "mgmt": 1.20, "custody": 0.20, "sales": 0.0, "sub_std": 1.50, "note": "主动型,基准MSCI ACWI" },
-    { "code": "000043", "name": "嘉实美国成长股票人民币", "index": "usgrowth", "channel": "otc", "mgmt": 1.20, "custody": 0.20, "sales": 0.0, "sub_std": 1.50, "note": "主动型,基准罗素1000成长" },
+    { "code": "006555", "name": "浦银全球智能科技(QDII)A", "index": "globalus", "channel": "otc", "mgmt": 1.20, "custody": 0.20, "sales": 0.0, "sub_std": 1.50, "note": "主动型,基准MSCI ACWI" },
+    { "code": "000043", "name": "嘉实美国成长股票人民币", "index": "globalus", "channel": "otc", "mgmt": 1.20, "custody": 0.20, "sales": 0.0, "sub_std": 1.50, "note": "主动型,基准罗素1000成长" },
 
     { "code": "019173", "name": "摩根纳斯达克100指数C", "index": "nasdaq100", "channel": "otc", "mgmt": 0.50, "custody": 0.10, "sales": 0.30, "sub_std": 0.0, "note": "" },
     { "code": "016453", "name": "南方纳斯达克100指数发起C", "index": "nasdaq100", "channel": "otc", "mgmt": 0.50, "custody": 0.15, "sales": 0.10, "sub_std": 0.0, "note": "" },
