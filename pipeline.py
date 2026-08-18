@@ -15,7 +15,8 @@ WATCHLIST_PATH = os.path.join(BASE_DIR, "watchlist.json")
 DATA_DIR = os.path.join(BASE_DIR, "data")
 SNAPSHOT_PATH = os.path.join(DATA_DIR, "snapshot.json")
 
-INDEX_LABEL = {"nasdaq100": "纳斯达克100", "sp500": "标普500"}
+INDEX_LABEL = {"nasdaq100": "纳斯达克100", "sp500": "标普500",
+               "globaltech": "全球科技", "usgrowth": "美股成长"}
 W_ETFPREM = 0.5
 W_MGMT = 0.3
 W_TRACK = 0.2
