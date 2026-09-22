@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-22 00:59:59",
- "elapsed_sec": 134.0,
+ "generated_at": "2026-09-22 09:27:47",
+ "elapsed_sec": 126.2,
  "fees_updated": "2026-08-18",
  "etf": [
   {
@@ -49,8 +49,8 @@
    "index": "纳斯达克100",
    "index_key": "nasdaq100",
    "price": null,
-   "nav": 1.8739,
-   "nav_date": "2026-09-18",
+   "nav": 1.926,
+   "nav_date": "2026-09-21",
    "premium_pct": null,
    "change_pct": null,
    "amount": null,
@@ -69,8 +69,8 @@
    "index": "纳斯达克100",
    "index_key": "nasdaq100",
    "price": null,
-   "nav": 1.8573,
-   "nav_date": "2026-09-18",
+   "nav": 1.9089,
+   "nav_date": "2026-09-21",
    "premium_pct": null,
    "change_pct": null,
    "amount": null,
@@ -209,15 +209,15 @@
    "index": "纳斯达克100",
    "index_key": "nasdaq100",
    "price": null,
-   "nav": 2.4716,
-   "nav_date": "2026-09-18",
+   "nav": 2.5409,
+   "nav_date": "2026-09-21",
    "premium_pct": null,
    "change_pct": null,
    "amount": null,
    "mgmt": 0.6,
    "custody": 0.2,
    "note": "",
-   "track_dev": 2.02,
+   "track_dev": 1.97,
    "score": 5.0,
    "rank_premium": 1,
    "rank_mgmt": 7,
@@ -237,7 +237,7 @@
    "mgmt": 0.6,
    "custody": 0.2,
    "note": "",
-   "track_dev": 9.95,
+   "track_dev": 9.99,
    "score": 5.2,
    "rank_premium": 1,
    "rank_mgmt": 7,
@@ -257,7 +257,7 @@
    "mgmt": 0.6,
    "custody": 0.15,
    "note": "",
-   "track_dev": 9.97,
+   "track_dev": 10.01,
    "score": 5.4,
    "rank_premium": 1,
    "rank_mgmt": 7,
@@ -277,7 +277,7 @@
    "mgmt": 0.6,
    "custody": 0.15,
    "note": "",
-   "track_dev": 10.05,
+   "track_dev": 10.08,
    "score": 5.6,
    "rank_premium": 1,
    "rank_mgmt": 7,
@@ -297,7 +297,7 @@
    "mgmt": 0.6,
    "custody": 0.15,
    "note": "",
-   "track_dev": 10.4,
+   "track_dev": 10.41,
    "score": 5.8,
    "rank_premium": 1,
    "rank_mgmt": 7,
@@ -341,9 +341,30 @@
    "hold_cost": 0.75,
    "note": "",
    "track_dev": 0.42,
-   "score": 1.6,
+   "score": 2.4,
    "rank_cost": 2,
    "rank_mgmt": 2,
+   "rank_track": 3
+  },
+  {
+   "code": "019524",
+   "name": "华泰柏瑞纳斯达克100ETF联接A",
+   "index": "纳斯达克100",
+   "index_key": "nasdaq100",
+   "status": "限大额",
+   "limit_yuan": 5.0,
+   "limit_text": "单日累计购买上限5.00元",
+   "limit_display": "5",
+   "sub_std": 1.2,
+   "mgmt": 0.5,
+   "custody": 0.15,
+   "sales": 0.0,
+   "hold_cost": 0.77,
+   "note": "",
+   "track_dev": 0.24,
+   "score": 3.4,
+   "rank_cost": 5,
+   "rank_mgmt": 5,
    "rank_track": 1
   },
   {
@@ -362,10 +383,10 @@
    "hold_cost": 0.77,
    "note": "",
    "track_dev": 0.42,
-   "score": 3.4,
+   "score": 4.2,
    "rank_cost": 5,
    "rank_mgmt": 5,
-   "rank_track": 1
+   "rank_track": 3
   },
   {
    "code": "019172",
@@ -383,10 +404,10 @@
    "hold_cost": 0.72,
    "note": "",
    "track_dev": 0.62,
-   "score": 3.4,
+   "score": 4.2,
    "rank_cost": 1,
    "rank_mgmt": 1,
-   "rank_track": 7
+   "rank_track": 9
   },
   {
    "code": "019547",
@@ -404,10 +425,10 @@
    "hold_cost": 0.77,
    "note": "",
    "track_dev": 0.48,
-   "score": 4.2,
+   "score": 5.0,
    "rank_cost": 5,
    "rank_mgmt": 5,
-   "rank_track": 3
+   "rank_track": 5
   },
   {
    "code": "019736",
@@ -425,10 +446,10 @@
    "hold_cost": 0.77,
    "note": "",
    "track_dev": 0.48,
-   "score": 4.2,
+   "score": 5.0,
    "rank_cost": 5,
    "rank_mgmt": 5,
-   "rank_track": 3
+   "rank_track": 5
   },
   {
    "code": "021773",
@@ -446,10 +467,10 @@
    "hold_cost": 0.75,
    "note": "",
    "track_dev": 0.64,
-   "score": 4.8,
+   "score": 5.6,
    "rank_cost": 2,
    "rank_mgmt": 2,
-   "rank_track": 9
+   "rank_track": 11
   },
   {
    "code": "018966",
@@ -467,10 +488,31 @@
    "hold_cost": 0.77,
    "note": "",
    "track_dev": 0.64,
-   "score": 6.6,
+   "score": 7.4,
    "rank_cost": 5,
    "rank_mgmt": 5,
-   "rank_track": 9
+   "rank_track": 11
+  },
+  {
+   "code": "019525",
+   "name": "华泰柏瑞纳斯达克100ETF联接C",
+   "index": "纳斯达克100",
+   "index_key": "nasdaq100",
+   "status": "限大额",
+   "limit_yuan": 5.0,
+   "limit_text": "单日累计购买上限5.00元",
+   "limit_display": "5",
+   "sub_std": 0.0,
+   "mgmt": 0.5,
+   "custody": 0.15,
+   "sales": 0.25,
+   "hold_cost": 0.9,
+   "note": "",
+   "track_dev": 0.24,
+   "score": 7.6,
+   "rank_cost": 12,
+   "rank_mgmt": 12,
+   "rank_track": 1
   },
   {
    "code": "019737",
@@ -488,10 +530,10 @@
    "hold_cost": 0.9,
    "note": "",
    "track_dev": 0.48,
-   "score": 7.8,
-   "rank_cost": 11,
-   "rank_mgmt": 11,
-   "rank_track": 3
+   "score": 9.2,
+   "rank_cost": 12,
+   "rank_mgmt": 12,
+   "rank_track": 5
   },
   {
    "code": "019441",
@@ -508,11 +550,11 @@
    "sales": 0.0,
    "hold_cost": 0.75,
    "note": "",
-   "track_dev": 1.64,
-   "score": 9.2,
+   "track_dev": 1.65,
+   "score": 10.0,
    "rank_cost": 2,
    "rank_mgmt": 2,
-   "rank_track": 20
+   "rank_track": 22
   },
   {
    "code": "019173",
@@ -530,10 +572,31 @@
    "hold_cost": 0.9,
    "note": "",
    "track_dev": 0.62,
-   "score": 9.4,
-   "rank_cost": 11,
-   "rank_mgmt": 11,
-   "rank_track": 7
+   "score": 10.8,
+   "rank_cost": 12,
+   "rank_mgmt": 12,
+   "rank_track": 9
+  },
+  {
+   "code": "017641",
+   "name": "摩根标普500指数A",
+   "index": "标普500",
+   "index_key": "sp500",
+   "status": "限大额",
+   "limit_yuan": 10.0,
+   "limit_text": "单日累计购买上限10.00元",
+   "limit_display": "10",
+   "sub_std": 1.2,
+   "mgmt": 0.5,
+   "custody": 0.15,
+   "sales": 0.0,
+   "hold_cost": 0.77,
+   "note": "",
+   "track_dev": 10.42,
+   "score": 13.0,
+   "rank_cost": 5,
+   "rank_mgmt": 5,
+   "rank_track": 25
   },
   {
    "code": "019548",
@@ -551,31 +614,10 @@
    "hold_cost": 1.05,
    "note": "",
    "track_dev": 0.49,
-   "score": 12.0,
-   "rank_cost": 16,
-   "rank_mgmt": 16,
-   "rank_track": 6
-  },
-  {
-   "code": "017641",
-   "name": "摩根标普500指数A",
-   "index": "标普500",
-   "index_key": "sp500",
-   "status": "限大额",
-   "limit_yuan": 10.0,
-   "limit_text": "单日累计购买上限10.00元",
-   "limit_display": "10",
-   "sub_std": 1.2,
-   "mgmt": 0.5,
-   "custody": 0.15,
-   "sales": 0.0,
-   "hold_cost": 0.77,
-   "note": "",
-   "track_dev": 10.39,
-   "score": 12.2,
-   "rank_cost": 5,
-   "rank_mgmt": 5,
-   "rank_track": 23
+   "score": 14.0,
+   "rank_cost": 18,
+   "rank_mgmt": 18,
+   "rank_track": 8
   },
   {
    "code": "018967",
@@ -593,10 +635,10 @@
    "hold_cost": 1.05,
    "note": "",
    "track_dev": 0.64,
-   "score": 13.2,
-   "rank_cost": 16,
-   "rank_mgmt": 16,
-   "rank_track": 9
+   "score": 15.2,
+   "rank_cost": 18,
+   "rank_mgmt": 18,
+   "rank_track": 11
   },
   {
    "code": "019442",
@@ -613,11 +655,11 @@
    "sales": 0.2,
    "hold_cost": 0.85,
    "note": "",
-   "track_dev": 1.64,
-   "score": 14.0,
-   "rank_cost": 10,
-   "rank_mgmt": 10,
-   "rank_track": 20
+   "track_dev": 1.65,
+   "score": 15.4,
+   "rank_cost": 11,
+   "rank_mgmt": 11,
+   "rank_track": 22
   },
   {
    "code": "040046",
@@ -635,10 +677,10 @@
    "hold_cost": 0.92,
    "note": "",
    "track_dev": 1.07,
-   "score": 14.6,
-   "rank_cost": 13,
-   "rank_mgmt": 13,
-   "rank_track": 17
+   "score": 16.6,
+   "rank_cost": 15,
+   "rank_mgmt": 15,
+   "rank_track": 19
   },
   {
    "code": "014978",
@@ -656,10 +698,10 @@
    "hold_cost": 1.0,
    "note": "",
    "track_dev": 1.07,
-   "score": 15.8,
-   "rank_cost": 15,
-   "rank_mgmt": 15,
-   "rank_track": 17
+   "score": 17.8,
+   "rank_cost": 17,
+   "rank_mgmt": 17,
+   "rank_track": 19
   },
   {
    "code": "539001",
@@ -676,11 +718,11 @@
    "sales": 0.0,
    "hold_cost": 1.12,
    "note": "",
-   "track_dev": 0.93,
-   "score": 16.0,
-   "rank_cost": 18,
-   "rank_mgmt": 18,
-   "rank_track": 13
+   "track_dev": 0.88,
+   "score": 18.0,
+   "rank_cost": 20,
+   "rank_mgmt": 20,
+   "rank_track": 15
   },
   {
    "code": "000834",
@@ -698,10 +740,10 @@
    "hold_cost": 1.12,
    "note": "",
    "track_dev": 1.03,
-   "score": 16.8,
-   "rank_cost": 18,
-   "rank_mgmt": 18,
-   "rank_track": 15
+   "score": 18.8,
+   "rank_cost": 20,
+   "rank_mgmt": 20,
+   "rank_track": 17
   },
   {
    "code": "012752",
@@ -718,11 +760,11 @@
    "sales": 0.3,
    "hold_cost": 1.3,
    "note": "",
-   "track_dev": 0.92,
-   "score": 17.4,
-   "rank_cost": 21,
-   "rank_mgmt": 21,
-   "rank_track": 12
+   "track_dev": 0.87,
+   "score": 19.4,
+   "rank_cost": 23,
+   "rank_mgmt": 23,
+   "rank_track": 14
   },
   {
    "code": "023422",
@@ -739,11 +781,11 @@
    "sales": 0.3,
    "hold_cost": 1.3,
    "note": "",
-   "track_dev": 0.93,
-   "score": 17.8,
-   "rank_cost": 21,
-   "rank_mgmt": 21,
-   "rank_track": 13
+   "track_dev": 0.88,
+   "score": 19.8,
+   "rank_cost": 23,
+   "rank_mgmt": 23,
+   "rank_track": 15
   },
   {
    "code": "019305",
@@ -760,11 +802,11 @@
    "sales": 0.3,
    "hold_cost": 0.95,
    "note": "",
-   "track_dev": 10.4,
-   "score": 18.0,
-   "rank_cost": 14,
-   "rank_mgmt": 14,
-   "rank_track": 24
+   "track_dev": 10.43,
+   "score": 20.0,
+   "rank_cost": 16,
+   "rank_mgmt": 16,
+   "rank_track": 26
   },
   {
    "code": "008971",
@@ -782,10 +824,10 @@
    "hold_cost": 1.3,
    "note": "",
    "track_dev": 1.03,
-   "score": 18.6,
-   "rank_cost": 21,
-   "rank_mgmt": 21,
-   "rank_track": 15
+   "score": 20.6,
+   "rank_cost": 23,
+   "rank_mgmt": 23,
+   "rank_track": 17
   },
   {
    "code": "160213",
@@ -803,10 +845,10 @@
    "hold_cost": 1.15,
    "note": "LOF,可场内交易",
    "track_dev": 1.2,
-   "score": 19.6,
-   "rank_cost": 20,
-   "rank_mgmt": 20,
-   "rank_track": 19
+   "score": 21.6,
+   "rank_cost": 22,
+   "rank_mgmt": 22,
+   "rank_track": 21
   },
   {
    "code": "000043",
@@ -823,11 +865,11 @@
    "sales": 0.0,
    "hold_cost": 1.55,
    "note": "主动型,基准罗素1000成长",
-   "track_dev": 5.41,
-   "score": 24.4,
-   "rank_cost": 26,
-   "rank_mgmt": 26,
-   "rank_track": 22
+   "track_dev": 5.38,
+   "score": 26.4,
+   "rank_cost": 28,
+   "rank_mgmt": 28,
+   "rank_track": 24
   },
   {
    "code": "096001",
@@ -844,11 +886,11 @@
    "sales": 0.0,
    "hold_cost": 1.35,
    "note": "等权重指数",
-   "track_dev": 17.45,
-   "score": 24.4,
-   "rank_cost": 24,
-   "rank_mgmt": 24,
-   "rank_track": 25
+   "track_dev": 17.51,
+   "score": 26.4,
+   "rank_cost": 26,
+   "rank_mgmt": 26,
+   "rank_track": 27
   },
   {
    "code": "008401",
@@ -865,11 +907,11 @@
    "sales": 0.3,
    "hold_cost": 1.5,
    "note": "等权重指数",
-   "track_dev": 17.45,
-   "score": 25.0,
-   "rank_cost": 25,
-   "rank_mgmt": 25,
-   "rank_track": 25
+   "track_dev": 17.52,
+   "score": 27.4,
+   "rank_cost": 27,
+   "rank_mgmt": 27,
+   "rank_track": 28
   },
   {
    "code": "006555",
@@ -886,11 +928,11 @@
    "sales": 0.0,
    "hold_cost": 1.55,
    "note": "主动型,基准MSCI ACWI",
-   "track_dev": 40.08,
-   "score": 26.4,
-   "rank_cost": 26,
-   "rank_mgmt": 26,
-   "rank_track": 27
+   "track_dev": 39.99,
+   "score": 28.4,
+   "rank_cost": 28,
+   "rank_mgmt": 28,
+   "rank_track": 29
   }
  ],
  "otc_excluded": [
@@ -1055,22 +1097,6 @@
    "note": ""
   },
   {
-   "code": "019524",
-   "name": "华泰柏瑞纳斯达克100ETF联接A",
-   "index": "纳斯达克100",
-   "index_key": "nasdaq100",
-   "status": "暂停申购",
-   "limit_yuan": 0.0,
-   "limit_text": "单日累计购买上限5.00元",
-   "limit_display": "不可申购",
-   "sub_std": 1.2,
-   "mgmt": 0.5,
-   "custody": 0.15,
-   "sales": 0.0,
-   "hold_cost": 0.77,
-   "note": ""
-  },
-  {
    "code": "007721",
    "name": "天弘标普500发起(FOF)A",
    "index": "标普500",
@@ -1132,22 +1158,6 @@
    "custody": 0.1,
    "sales": 0.25,
    "hold_cost": 0.85,
-   "note": ""
-  },
-  {
-   "code": "019525",
-   "name": "华泰柏瑞纳斯达克100ETF联接C",
-   "index": "纳斯达克100",
-   "index_key": "nasdaq100",
-   "status": "暂停申购",
-   "limit_yuan": 0.0,
-   "limit_text": "单日累计购买上限5.00元",
-   "limit_display": "不可申购",
-   "sub_std": 0.0,
-   "mgmt": 0.5,
-   "custody": 0.15,
-   "sales": 0.25,
-   "hold_cost": 0.9,
    "note": ""
   },
   {
