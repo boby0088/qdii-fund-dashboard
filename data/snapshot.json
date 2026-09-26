@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-25 09:45:50",
- "elapsed_sec": 101.5,
+ "generated_at": "2026-09-26 00:45:59",
+ "elapsed_sec": 140.4,
  "fees_updated": "2026-08-18",
  "etf": [
   {
@@ -1302,7 +1302,7 @@
   }
  ],
  "warnings": [
-  "场内行情抓取失败: HTTP Error 502: Bad Gateway"
+  "场内行情抓取失败: <urlopen error _ssl.c:993: The handshake operation timed out>"
  ],
  "weights": {
   "etf": {
